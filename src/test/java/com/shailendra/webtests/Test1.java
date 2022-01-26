@@ -18,6 +18,8 @@ public class Test1 {
   public void openGoogle() {
 	  driver.get("https://www.google.com/");
 	  System.out.println("The page title : " + driver.getTitle());
+	  System.out.println("The page url : " + driver.getCurrentUrl());
+	  System.out.println("added one line");
 	  
   }
   @BeforeClass
